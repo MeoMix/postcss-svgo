@@ -2,7 +2,7 @@ import postcss from 'postcss';
 import valueParser from 'postcss-value-parser';
 import SVGO from 'svgo';
 import isSvg from 'is-svg';
-import {encode, decode} from './lib/url';
+import {encode, decode} from './lib/url.js';
 
 const dataURI = /data:image\/svg\+xml(;(charset=)?utf-8)?,/;
 
